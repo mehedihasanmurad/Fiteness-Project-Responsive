@@ -1,0 +1,34 @@
+
+/* Tablet Device */
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    .navbar-section {
+        margin: 0 30px;
+    }
+
+    .navbar-text {
+        justify-content: space-between;
+    }
+}
+
+
+
+/* Mobile Device */
+@media screen and (max-width: 576px) {
+    
+
+    .navbar-text a {
+        display: none;
+    }
+
+    .special {
+        margin-left: 20px;
+    }
+
+    .menu {
+        display: block;
+        margin-left: 110px;
+    }
+}
+
+
