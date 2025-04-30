@@ -9,6 +9,45 @@
     .navbar-text {
         justify-content: space-between;
     }
+
+    .section-container {
+        flex-direction: column;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    .text-container {
+        width: 100%;
+    }
+
+    .text-container p {
+        font-size: 20px;
+    }
+
+    .image-container {
+        width: 100%;
+    }
+
+    .image-text1 {
+        width: 30%;
+    }
+
+    .image-text1 h1, p{
+        font-size: 20px;
+    }
+    
+    .image-text2 {
+        width: 30%;
+    }
+
+    .image-text2 h1, p{
+        font-size: 20px;
+    }
+
+    .image-text2 span {
+        height: 15px;
+        width: 15px;
+    }
 }
 
 
@@ -28,6 +67,50 @@
     .menu {
         display: block;
         margin-left: 110px;
+    }
+
+    .section-container {
+        flex-direction: column;
+        margin: 0 20px;
+    }
+
+    .text-container {
+        width: 100%;
+    }
+
+    .text-container h1 {
+        font-size: 40px;
+    }
+
+
+    .text-container p {
+        font-size: 20px;
+    }
+
+    .image-container {
+        width: 100%;
+    }
+
+    .image-text1 {
+        width: 30%;
+    }
+
+    .image-text1 h1, p{
+        font-size: 9px;
+    }
+    
+    .image-text2 {
+        width: 30%;
+        font-size: 12px;
+    }
+
+    .image-text2 h1, p{
+        font-size: 8px;
+    }
+
+    .image-text2 span {
+        height: 15px;
+        width: 15px;
     }
 }
 

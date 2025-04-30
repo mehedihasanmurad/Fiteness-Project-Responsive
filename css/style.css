@@ -21,7 +21,7 @@ body {
 }
 
 .navbar-section {
-    max-width: 1300px;
+    max-width: 1250px;
     margin: 0 auto;
     display: flex;
     justify-content: space-evenly;
@@ -59,4 +59,102 @@ body {
 
 .menu {
     display: none;
+}
+
+/* banner styles here  */
+
+.section-container {
+    max-width: 1250px;
+    margin: 0 auto;
+    min-height: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-container {
+    width: 55%;
+    margin-top: 30px;
+}
+
+.text-container h1 {
+    font-size: 60px;
+    line-height: 90px;
+    margin-bottom: 20px;
+}
+
+.shape {
+    font-family: "Dancing Script", cursive;
+    font-size: 90px;
+}
+
+.text-container p {
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 30px;
+}
+
+.btn1 {
+    background-color: #E6533C;
+    padding: 10px 30px;
+    border-radius: 25px;
+    font-size: 17px;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+.btn2 {
+    background-color:rgba(17, 17, 17, 1);
+    border: 1px solid white; 
+    padding: 10px 30px;
+    border-radius: 25px;
+    font-size: 17px;
+    color: white;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.image-container {
+    width: 45%;
+    position: relative;
+}
+
+.image-container img {
+    width: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
+
+.image-text1 {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    padding: 10px;
+    width: 36%;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    bottom: 60%;
+    left: 55%;
+}
+
+.image-text2 {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    padding: 10px;
+    width: 36%;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    bottom: 15%;
+    right: 50%;
+}
+
+.image-text2 span {
+    height: 30px;
+    width: 30px;
+    background-color: #E6533C;
+    border-radius: 50%;
 }
