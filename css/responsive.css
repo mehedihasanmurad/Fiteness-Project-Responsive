@@ -49,6 +49,18 @@
         width: 15px;
     }
 
+    .run-container {
+        flex-direction: column;
+    }
+
+    .run-text-container {
+        width: 100%;
+    }
+
+    .run-image-container {
+        width: 100%;
+    }
+
     
 }
 
@@ -115,7 +127,17 @@
         width: 15px;
     }
 
-    
+    .run-container {
+        flex-direction: column;
+    }
+
+    .run-text-container {
+        width: 100%;
+    }
+
+    .run-image-container {
+        width: 100%;
+    }
 }
 
 

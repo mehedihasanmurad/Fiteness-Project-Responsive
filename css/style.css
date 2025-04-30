@@ -213,4 +213,49 @@ body {
 }
 
 
+/* Run Section styles here  */
+
+.run-section {
+    max-width: 1250px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    background-color: #222222;
+    border-radius: 20px;
+}
+
+.run-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.run-text-container {
+    width: 60%;
+}
+
+.run-text-container h1 {
+    font-size: 38px;
+    margin-bottom: 10px;
+}
+
+.run-text-container p {
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 20px;
+}
+
+.run-image-container {
+    width: 40%;
+}
+
+.run-image-container img {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    object-fit: cover;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+
 
