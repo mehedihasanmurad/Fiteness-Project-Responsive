@@ -158,3 +158,59 @@ body {
     background-color: #E6533C;
     border-radius: 50%;
 }
+
+
+/* Habit styles here  */
+
+.habit-section {
+    max-width: 1250px;
+    margin: 0 auto;
+    min-height: 300px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.habit-section h1 {
+    font-size: 45px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.habit-section p {
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.habit-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    flex-wrap: wrap;
+}
+
+.habit-image-container {
+    flex-basis: 300px;
+}
+
+.habit-image img {
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.habit-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.habit-image p {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+
+
