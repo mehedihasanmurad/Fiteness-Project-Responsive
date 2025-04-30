@@ -258,4 +258,68 @@ body {
 }
 
 
+/* Training Section Styles Here */
+
+.training-section {
+    max-width: 1250px;
+    margin: 0 auto;  
+    min-height: 200px;
+}
+
+.exercise-image {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    margin: 40px 0;
+}
+
+
+.box1 {
+    height: 200px;
+    background-size: cover;
+    position: relative;
+    grid-column: 1/span 3;
+    /* border: 2px solid white; */
+}
+
+.box2 {
+    height: 200px;
+    background-size: cover;
+    position: relative;
+    grid-column: 4/span 6;
+    /* border: 2px solid white; */
+}
+
+.box3 {
+    height: 200px;
+    background-size: cover;
+    position: relative;
+    grid-column: 10/span 3;
+    /* border: 2px solid white; */
+}
+
+.box4 {
+    height: 200px;
+    background-size: cover;
+    position: relative;
+    grid-column: 1/span 5;
+    /* border: 2px solid white; */
+}
+
+.box5 {
+    height: 200px;
+    background-size: cover;
+    position: relative;
+    grid-column: 6/span 3;
+    /* border: 2px solid white; */
+}
+
+.box6 {
+    height: 200px;
+    background-size: cover;
+    position: relative;
+    grid-column: 9/span 4;
+    /* border: 2px solid white; */
+}
+
 
