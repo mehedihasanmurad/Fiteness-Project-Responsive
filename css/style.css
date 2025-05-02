@@ -427,3 +427,50 @@ input {
     width: 200px;
 }
 
+
+/* team meet styles here  */
+
+.team-section {  
+    max-width: 1250px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.team-text {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.team-text h1 {
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+.team-text p {
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 40px;
+    font-size: 15px;
+}
+
+.team-image {
+    background-color: rgba(255, 255, 255, 0.1);
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 30px;
+}
+
+.trainer {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.single-image {
+    flex-basis: 372px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+
