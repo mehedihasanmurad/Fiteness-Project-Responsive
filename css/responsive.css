@@ -65,6 +65,39 @@
         margin: 0 10px;
     }
 
+    .calculator-section {
+        margin-top: 10px;
+    }
+
+    .bmi-container {
+        margin: 0 20px;
+    }
+
+    .bmi-text-container {
+        width: 100%;
+    }
+
+    table {
+        margin-bottom: 20px;
+    }
+
+    .bmi-input-container {
+        width: 100%;
+        margin: 0;
+    }  
+
+    input {
+    width: 140px;
+}
+
+.option-bar {
+    width: 140px;
+}
+
+.extra {
+    width: 290px;
+}
+
     
 }
 
@@ -171,6 +204,40 @@
     .box6 {
         grid-column: 4/span 3;
     }
+
+    .calculator-section {
+        margin-top: 10px;
+    }
+
+    .bmi-container {
+        flex-direction: column;
+        margin: 0 20px;
+    }
+
+    .bmi-text-container {
+        width: 100%;
+    }
+
+    table {
+        margin-bottom: 20px;
+    }
+
+    .bmi-input-container {
+        width: 100%;
+        margin: 0;
+    }
+
+    input {
+    width: 140px;
+}
+
+.option-bar {
+    width: 140px;
+}
+
+.extra {
+    width: 290px;
+}
 
 }
 
