@@ -243,6 +243,33 @@
         width: 400px;
     }
 
+    .footer-section {
+        flex-direction: column;
+        margin: 0 20px;
+    }
+
+    .footer-text {
+        width: 100%;
+    }
+
+    .footer-text1 {
+        width: 100%;
+    }
+
+    .footer-text2 {
+        width: 100%;
+    }
+
+    .boder {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .copyright {
+        text-align: justify;
+        margin-left: 15px;
+    }
+
 }
 
 
